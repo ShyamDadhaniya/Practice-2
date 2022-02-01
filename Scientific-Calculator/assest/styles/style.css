@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+.main{
+    width: 371px;
+    height: auto;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: -2px 5px 15px 11px rgba(0,0,0,0.1);
+    padding: 5px
+}
+
+button{
+    min-width: 70px;
+    height: 35px;
+    margin: 4px 1px;
+}
+
+.gray{
+    color: gray;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+#operation{
+    height: 45px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d; 
+}
+
