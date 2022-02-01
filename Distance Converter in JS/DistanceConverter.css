@@ -1,0 +1,47 @@
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #333;
+    padding: 50px 0;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 130%;
+}
+
+.invisible{
+    color: #aabccc;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.top{
+    background: cornsilk;
+}
+
+.bottom{
+    background: #abbccc;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: medium;
+}
