@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Prac</title>
+    <style>
+        img{
+            height: 500p;
+            width: 500px;
+        }
+    </style>
+    <script src="./slidshow.js" defer></script>
+</head>
+<body>
+    <div>
+        <img src="./image/image1.jpg" alt="Slideshow" id="myImage">
+    </div>
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
+
+
+    <!-- <script>
+
+        var myImage = ['image/image1.jpg', 'image/image2.jpg', 'image/image3.jpg', 'image/image4.jpg', 'image/image5.jpg', ];
+        var currentImage = 0;
+
+        var myI = document.getElementById('next');
+        myI.onclick = nextImage;
+        var myI2 = document.getElementById('previous');
+        myI2.onclick = previousImage;
+
+        function nextImage() {
+            currentImage++;
+            if( currentImage > myImage.length-1){ currentImage=0 };
+            var nextImage = document.getElementById('myImage');
+            nextImage.src = myImage[currentImage];
+            
+        }
+
+        function previousImage() {
+            currentImage--;
+            if( currentImage < 0){ currentImage = myImage.length-1 };
+            var nextImage = document.getElementById('myImage');
+            nextImage.src = myImage[currentImage];
+        }
+    </script> -->
+</body>
+</html>
